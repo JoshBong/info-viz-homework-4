@@ -14,7 +14,6 @@ function Routes(props){
     }
     const filteredRoutes = routes.filter(route => route.AirlineID === selectedAirlineID);
     
-
     return (
         <g>
             {filteredRoutes.map(route => {
